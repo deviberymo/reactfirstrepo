@@ -1,0 +1,27 @@
+import React from 'react';
+const profile =() => {
+    return(
+        <div className="panel panel-warning">
+
+          <div className="panel panel-heading">
+            <h2>profile</h2>
+            </div>
+             <div className="panel-body">
+                 <h1> profile page</h1>
+                 <p>A2A. Dummy Articleship is basically when you get registered under a CA for the mandatory training period of 3 years under the CA course but you don't actually go to the office for training. Two things:
+
+                It is contravention of the guidelines. Basically what you're doing can also be termed as fraud!
+                It is highly NOT recommended if you actually want to gain the knowledge.
+                 Students generally take dummy for a couple of reasons.. Most of them in case they clear group one.. to have the articles period started as we as to have a sufficient study time. Secondly, if they are pursuing CA just for the sake of having a degree.
+
+                Further, if you're anyways doing it, a CA would generally charge you for taking you as a dummy trainee under him/her, the range for which varies from City to City. Smaller the place, lesser the amount. Say monthly 500 to 2500 or a lump sum 15k to 40k.
+
+                Hope this helps! :) </p>
+                <p> <center>{ 'you are on page num 110' } </center>
+                </p>
+            </div>
+        </div>
+    )
+}
+
+export default profile;
